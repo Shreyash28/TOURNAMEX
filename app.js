@@ -5,7 +5,7 @@ var express     = require("express"),
     mongoose    = require("mongoose"),
     passport    = require("passport"),
     LocalStrategy = require("passport-local")
-   
+    mongoose.connect("mongodb://localhost:27017/Tournamex",{ useUnifiedTopology: true,useNewUrlParser: true})
 
 
 app.set("view engine", "ejs");
