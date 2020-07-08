@@ -63,7 +63,7 @@ app.get("/cancellation-policy",function(req,res){
 
 //ABOUT
 
-app.get("/About",function(req,res){
+app.get("/About-Us",function(req,res){
     res.render("tournamex/about.ejs")
 })
 
